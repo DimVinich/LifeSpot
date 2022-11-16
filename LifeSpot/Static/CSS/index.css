@@ -10,16 +10,16 @@
     padding-left: 15%;
 }
 
-/* Стили панели навигации */
-.navbar p {
-    color: darkgray;
-    padding-left: 15%;
-}
+    /* Стили панели навигации */
+    .navbar p {
+        color: darkgray;
+        padding-left: 15%;
+    }
 
-/* Стили панели навигации при наведении мышью */
-.navbar p:hover {
-    color: aliceblue;
-}
+        /* Стили панели навигации при наведении мышью */
+        .navbar p:hover {
+            color: aliceblue;
+        }
 
 header {
     color: black;
@@ -37,6 +37,7 @@ footer {
     font-size: medium;
     color: dimgrey;
     line-height: 66%;
+    padding-left: 1%;
 }
 
 aside {
@@ -57,12 +58,24 @@ body {
 }
 
 /* Комбинированный селектор - применяется ко всем элементам */
-/*header, footer, aside, body, .navbar, .video-container {
+header, footer, aside, body, .navbar, .video-container {
     font-family: "Helvetica 65 Medium", sans-serif;
-}*/
+}
 
 /* Комбинированный селектор для 27.5.3*/
 header, footer, body, .video-container {
     background-color: linen;
 }
 
+/* Дополнительное задание */
+.input_div {
+    padding-left: 1%;
+}
+
+.input_text {
+    border: 2px solid darkgrey;
+}
+
+.input_text:focus {
+    border: 3px solid blue;
+}
